@@ -43,3 +43,108 @@ nav ul li {
     display: inline;
     padding: 0.2em 1em;
 }
+
+/*MAIN*/
+h2 {
+    text-align: center;
+    font-family: "Copperplate Gothic";
+    font-size: 1.2em;
+}
+
+main p {
+    font: 1em;
+    margin: 1em;
+}
+
+div.grid {
+    display: inline-grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+.figure1 {
+    background-color: lavender;
+}
+
+.figure2 {
+    background-color: lightblue;
+}
+
+.figure3 {
+    background-color: pink;
+}
+
+figure img {
+    width: 75%;
+    height: 75%;
+    padding: 5% 12.5%;
+}
+
+figcaption {
+    color: #fff;
+    font-family: "Copperplate Gothic";
+    text-align: center;
+}
+
+div.flexbox {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: purple;
+    padding: 1em 2.5em 4em 2em;
+    width: 40%;
+    margin: 0;
+}
+
+form h3 {
+    text-align: center;
+    color: #fff;
+    font-family: "Copperplate Gothic";
+    font-size: 1em;
+}
+
+form label {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    margin-left: 5px;
+}
+
+textarea {
+    height: 50px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+input[type=submit] {
+    padding: 0.5em 1.5em;
+    color: purple;
+    margin-left: 5px;
+    float: left;
+}
+
+figure.single {
+    float: right;
+    width: 40%;
+    border: 5px pink solid;
+    margin: 0;
+}
+
+figure.single img {
+    width: 95%;
+    height: 95%;
+    padding: 4% 2.5%;
+}
+
+footer {
+    clear: both;
+}
